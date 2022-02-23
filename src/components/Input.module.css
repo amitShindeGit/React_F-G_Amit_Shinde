@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+}
+
+.input {
+  width: 20rem;
+  padding: 0.2rem 3.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  outline-color: rgb(189, 172, 229);
+  /* box-shadow: rgb(189,172,229) 0px 5px 15px;; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.normalInput {
+  width: 20rem;
+  padding: 0.2rem 6rem 0.2rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  outline-color: rgb(189, 172, 229);
+}
+
+.errInput {
+  width: 20rem;
+  padding: 0.2rem 6rem 0.2rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  outline: 1px solid rgb(241, 109, 154);
+  outline-color: rgb(241, 109, 154);
+}
+
+.errNumInput {
+  width: 20rem;
+  padding: 0.2rem 3.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  outline: 1px solid rgb(241, 109, 154);
+  outline-color: rgb(241, 109, 154);
+}
+
+.img {
+  margin-top: -1.3rem;
+  margin-left: 0.4rem;
+  border-radius: 0.2rem;
+}
+
+.error {
+  margin-top: 0rem;
+  color: rgb(241, 109, 154);
+}

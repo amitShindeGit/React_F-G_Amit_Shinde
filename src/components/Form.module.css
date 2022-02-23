@@ -1,0 +1,41 @@
+.formcontainer{
+    height: 32rem; 
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    border-radius: .3rem;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #000066;
+
+}
+
+.radios p {
+    color: #000066;
+
+    margin-top: 3rem;
+}
+
+.submit{
+    position: absolute;
+    right: 0;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    border: 0px;
+    width: 6rem;
+    height: 2rem;
+    color: #fff;
+    background-color: #48A44C;
+    border-radius: .2rem;
+    outline: none;
+}

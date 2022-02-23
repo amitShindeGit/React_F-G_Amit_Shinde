@@ -1,0 +1,12 @@
+.radioInput {
+  accent-color: #8870C9;
+  width: 1.2rem;
+  height: 1.2rem;
+  transform: translateY(.3rem);
+}
+
+.radioLabel{
+    font-size: 1rem;
+    color: #000066;
+
+}
